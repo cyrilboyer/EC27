@@ -1,89 +1,51 @@
-# EC23U
+# ⚠️ WARNING: UNTESTED PROTOTYPE ⚠️
 
-Open source numpad Electrostatic Capacitive PCB.
+**THIS PROJECT IS CURRENTLY UNTESTED AND HAS NO FIRMWARE. USE AT YOUR OWN RISK.**
+
+# EC27
+
+Open source split Electrostatic Capacitive PCB inspired by the Kyria.
 
 ## Introduction
 
-This project is a continuation of my development of open source EC boards.
-
-The supported layout options are the following:
-
-![Layout option](/Assets/Layout_option.png)
+This project is a fork of Cipulot's EC23U, adapted into a split keyboard design with 27 keys per half. It draws inspiration from the Kyria by splitkb.
 
 ## Technical information
 
-- Layout size: 23U layouts with alternative options
-- Compatible switches: EC switches (Topre and NIZ)
+- Layout: Split keyboard with 27 keys per half
+- Compatible switches: EC switches (Topre)
 - Microcontroller: STM32F401
-- Connector: Original OEM JST connector
-- Firmware compatibility: QMK (with VIA/VIAL support)
-- Protection hardware (present on both the mainboard and both controller versions):
+- Connector: USB-C
+- Firmware compatibility: To be developed (planned QMK with VIA/VIAL support)
+- Protection hardware (present on both halves):
   - Fused
   - ESD protection
-- Addressable RGB LED support
-- Numlock LED support
 
 ## Renders and Prototypes
 
 ### Render
 
-![PCB Front Render](/Assets/PCB_render_front.png)
+![PCB Front Render](/Assets/PCB_render_front_left.png)
 
-![PCB Back Render](/Assets/PCB_render_back.png)
+![PCB Back Render](/Assets/PCB_render_back_right.png)
+
+![PCB Plate Render](/Assets/PCB_render_plate.png)
 
 ### Prototypes
 
-![PCB Front](/Assets/PCB_front.png)
+No physical prototypes are available at this time. PCBs have been ordered and are awaiting arrival and testing.
+This is my third attempt at an EC design. First one was working and had a Katana-esque layout but I did not know how to design a plate so I scrapped it.
 
-![PCB Back](/Assets/PCB_back.png)
+I then made a Dactyl-CC design with a 3d printed case with single PCBs that clip onto the case but the feel of the switches seem a bit harder than it should. It was my first Dactyl and I actually didn't like the ergonomics (although I own a Kinesis).
 
-**NOTE**: The silkscreen text near the JST connector has the `GND` and `VBUS` label swapped. This is wrong and have been fixed in the latest revision.
+## Acknowledgements
 
-## Revisions and relative features
+Huge thanks to Cipulot for their many open source repositories, which I forked for this project instead of using my own schematics (I am no professional, I trust his design more than mine). 
 
-### Rev1.0
-
-This revision implements all the main features of the mainboard ad controllers mentioned in the specifications.
-
-#### RGB header
-
-![RGB header](/Assets/rgb_header.png)
-
-The mainboard features an RGB header for connecting +5V addressable RGB strips. THe properties of the lighting can be controlled through Vial or by assigning RGB control keycodes on the board itself.
-
-#### NumLock Indicator
-
-The mainboard features a NumLock indicator LED. The LED is controlled by the MCU and reacts based on the system state. The LED used is a 3.0mm THT LED. Polarity is signalled by the silkscreen. The indicator is optional.
-
-#### DFU
-
-To access the DFU mode of the mainboard you can perform one of the following actions:
-
-- press the key to which the `QK_BOOT` keycode is assigned (if available)
-- while plugging in the board short the `Boot0` pins on the mainboard
-
-![Boot0 pins](/Assets/boot0_pins.png)
-
-## PCB order procedure
-
-### Production files
-
-The production can be found in the [Production folder](/Production).
-
-In there you'll find the main PCB files and the JIS and HHKB plates.
-
-As usual the `*.zip` files are the gerber files, `BOM-*.csv` are the BOM (Bill Of Material) files and `POS-*.csv` are the POS/CPL (Footprint POSition/Component Placement List) files.
-
-### Assembly options
-
-Here follows the options to be used for assembly:
-
-- Assembly Side: Bottom
-- Confirm Parts Placement: `yes`
 
 ## Copyright notice
 
-This project is not endorse nor sponsored in any way by Topre Corporation and PFU Limited. The HHKB Logo and Topre logo are trademarks of their respective owners.
+This project is not endorsed nor sponsored in any way by Topre Corporation, PFU Limited, or splitkb. Any mentioned trademarks or logos are the property of their respective owners.
 
 ## License
 

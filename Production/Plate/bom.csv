@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"H1, H12, H13, H14, H15, H16, H17, H2, H4, H5, H6, H7, H8",HOLE_M2,13,Black_Screws,
+"H10, H11, H9",HOLE_M2,3,Silver_Screws,
+H3,HOLE_M2,1,Plate_Shield,

@@ -1235,6 +1235,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 154.94 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27075959-d8c8-436f-9956-fb80637f3b52")
+		(property "Reference" "H15"
+			(at 157.48 77.9053 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Black_Screws"
+			(at 157.48 80.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cipulot_parts:HOLE_M2_RF"
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "EC23U"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/50e78839-f1bc-43a8-880c-7fa6522f20b3"
+					(reference "H15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 175.895 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e41aadb-468f-49e3-9c60-9253a7f668b2")
+		(property "Reference" "H16"
+			(at 178.435 51.2353 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Black_Screws"
+			(at 178.435 53.7722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cipulot_parts:HOLE_M2_RF"
+			(at 175.895 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.895 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.895 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "EC23U"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/50e78839-f1bc-43a8-880c-7fa6522f20b3"
+					(reference "H16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 56.515 53.34 0)
 		(unit 1)
@@ -1425,6 +1553,134 @@
 			(project "EC23U"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/50e78839-f1bc-43a8-880c-7fa6522f20b3"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 154.94 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73ee33f0-9bed-48bb-868e-6a37f7a029c4")
+		(property "Reference" "H12"
+			(at 157.48 51.2353 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Black_Screws"
+			(at 157.48 53.7722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cipulot_parts:HOLE_M2_RF"
+			(at 154.94 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "EC23U"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/50e78839-f1bc-43a8-880c-7fa6522f20b3"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 154.94 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77394022-8ce5-472a-9caa-90267ba3fd73")
+		(property "Reference" "H13"
+			(at 157.48 60.1253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Black_Screws"
+			(at 157.48 62.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cipulot_parts:HOLE_M2_RF"
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "EC23U"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/50e78839-f1bc-43a8-880c-7fa6522f20b3"
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -1703,6 +1959,70 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
+		(at 175.895 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e70880d-fbf8-400b-9bb3-26e35a351b96")
+		(property "Reference" "H17"
+			(at 178.435 60.1253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Black_Screws"
+			(at 178.435 62.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cipulot_parts:HOLE_M2_RF"
+			(at 175.895 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.895 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.895 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "EC23U"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/50e78839-f1bc-43a8-880c-7fa6522f20b3"
+					(reference "H17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
 		(at 130.175 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1825,6 +2145,70 @@
 			(project "EC23U"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/50e78839-f1bc-43a8-880c-7fa6522f20b3"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 154.94 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfe7bbef-d769-4867-bc38-9805fe5dfd82")
+		(property "Reference" "H14"
+			(at 157.48 69.0153 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Black_Screws"
+			(at 157.48 71.5522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cipulot_parts:HOLE_M2_RF"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "EC23U"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/50e78839-f1bc-43a8-880c-7fa6522f20b3"
+					(reference "H14")
 					(unit 1)
 				)
 			)
